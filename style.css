@@ -1,0 +1,55 @@
+body {
+    font-family: Arial; 
+    background-color: black; 
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.post {
+    width: 350px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-icons {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.post-likes,
+.post-p {
+    padding: 10px;
+    font-size: small;
+}
+.fa-brands.fa-html5,
+.fa-solid.fa-ellipsis-vertical,
+.fa-regular.fa-heart,
+.fa-regular.fa-comment,
+.fa-regular.fa-paper-plane,
+.fa-regular.fa-bookmark {
+    font-size: 20px;
+}
+.fa-brands.fa-html5{
+    margin-right: 5px;
+}
+.fa-regular.fa-paper-plane{
+margin-right: 220px;
+}
+#hp{
+   margin-right: auto;
+   font-size: small;
+}
+h1{
+    font-size: large;
+    margin-bottom: -15px;
+}
